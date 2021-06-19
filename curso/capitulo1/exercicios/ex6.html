@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário Avançado</title>
+  </head>
+  <body>
+    <form method="POST">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome: </label>
+        <input type="text" name="”nome”" id="”nome”" />
+        <label for="email">Sobrenome: </label>
+        <input type="text" name="sobrenome" id="”sobrenome”" /><br />
+        <label for="date">Nascimento: </label>
+        <input
+          type="date"
+          name="nascimento"
+          id="”nascimento”"
+          placeholder="nascimento"
+        /><br />
+        <label for="rg">RG: </label>
+        <input type="text" name="rg" id="”rg”" /><br />
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf" />
+      </fieldset>
+      <fieldset>
+        <legend>Dados de Edereço</legend>
+        <label for="rua">Rua: </label>
+        <input type="text" name="”rua”" id="”rua”" />
+        <label for="numero">Numero: </label>
+        <input type="number" name="rua" id="”rua”" /><br />
+        <label for="bairro">Bairo: </label>
+        <input type="text" name="bairo" id="”bairo”" /><br />
+        <label for="estado">Estado: </label>
+        <select name="estado">
+          <option value="ACRE">ACRE</option>
+          <option value=">RIO DE JANEIRO">RIO DE JANEIRO</option>
+          <option value="SAO PAULO">SAO PAULO</option></select
+        ><br />
+        <label for="cidade">Cidade: </label>
+        <input type="text" name="cidade" id="cidade" /><br />
+        <label for="cep">CEP: </label>
+        <input type="text" name="cep" id="cep" />
+      </fieldset>
+      <fieldset>
+        <legend>Dados de login</legend>
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" /><br />
+        <label for="image">Imagem de perfil: </label>
+        <input type="file" name="imagee" id="image" /><br />
+        <label for="login">Login de usuario: </label>
+        <input type="text" name="login" id="login" /><br />
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password" /><br />
+        <label for="password">Confirma senha: </label>
+        <input type="password" name="password" id="password" /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Pesquisa de Interesse</legend>
+        <label
+          >Você deseja trabalhar como Webmaster <br />
+          <input type="radio" name="sim" value="1" /> Sim <br />
+          <input type="radio" name="nao" value="2" /> Não <br />
+          <input type="radio" name="talvez" value="3" /> Talvez <br />
+          <input type="radio" name="quemsabe" value="4" /> Quem sabe
+        </label>
+        <br /><br />
+        <label
+          >O que você dejesa aprender <br />
+          <input type="checkbox" name="html" value="1" /> Html <br />
+          <input type="checkbox" name="css" value="2" /> Css <br />
+          <input type="checkbox" name="javascript" value="3" /> JavaScript
+          <br />
+          <input type="checkbox" name="django" value="4" /> Django
+        </label><br>
+        <label for="comentario">Deixe seu comentario:</label>
+        <textarea id="comentario" name="comentario" rows="4" cols="50">
+</textarea
+        >
+      </fieldset>
+      <button type="submit">OK</button>
+      <input type="reset" value="Limpar">
+    </form>
+  </body>
+</html>

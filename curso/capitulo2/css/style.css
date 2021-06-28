@@ -1,0 +1,12 @@
+main {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: #FFFFFF url("https://i1.wp.com/multarte.com.br/wp-content/uploads/2018/12/azul-claro27.jpg?fit=612%2C408&ssl=1")  right top fixed;
+}
+
+article {
+  background-color: brown;
+}
+article p {
+  text-align: center;
+  color: azure;
+}

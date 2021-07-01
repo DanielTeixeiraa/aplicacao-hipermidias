@@ -1,0 +1,37 @@
+header {
+  background-color:gray;
+  color: white;
+}
+
+section {
+  position: relative;
+  left: 200px;
+  bottom: 448px;
+  width: 1135px;
+}
+
+nav {
+  display: inline-block;
+  width: 180px;
+  height: 454px;
+  border-right: 1px solid #333333;
+}
+
+nav li {
+  height: 55px;
+}
+
+nav a {
+  background: #dfd9d988;
+  color: black;
+  padding: 18px;
+  width: 90px;
+  text-decoration: auto;
+  display: inline-block;
+}
+
+footer {
+  background-color: #808080;
+  color: white;
+  position: relative;
+}

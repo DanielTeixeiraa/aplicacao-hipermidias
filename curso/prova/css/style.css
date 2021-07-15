@@ -1,3 +1,9 @@
+/*Zerando o padding do ul*/
+ul 
+{    
+    padding: 0px;
+}
+
 body{
 max-width: 1300px;
 width: 100%;
@@ -189,6 +195,22 @@ height: 10;
 
 .calendar{
   background-color: rgb(247, 111, 111);
+}
+
+.final{
+  background-color: rgb(247, 111, 111);
+  margin-left: 12px;
+}
+
+.final div{
+ display: flex;
+ font-size: 18px;
+ padding-bottom: 50;
+}
+.final img{
+  min-width: 120px;
+    width: 120px;
+    height: 60px;
 }
 
 footer{

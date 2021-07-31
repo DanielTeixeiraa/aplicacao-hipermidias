@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P2</title>
+  <script src="../prova/javascript/script.js"></script>
+</head>
+<body>
+  <form>
+    <label for="nome">Nome:</label><br />
+    <input type="text" id="nome" name="nome" value="" /><br />
+
+    <label for="telefone">Telefone:</label><br />
+    <input type="text" id="telefone" name="telefone" value="" /><br />
+
+    <label for="chegada">Data Chegada:</label><br />
+    <input type="date" id="chegada" name="chegada" value="" /><br />
+
+    <label for="saida">Data Saída:</label><br />
+    <input type="date" id="saida" name="saida" value="" />
+
+    <p>Tipo de Quarto:</p>
+    <div id="quarto">
+      <input type="radio" id="single" name="op" value="1" />
+      <label for="single">Single(R$ 139)</label>
+      <input type="radio" id="double" name="op" value="2" />
+      <label for="single">Double(R$ 220,00)</label>
+      <input type="radio" id="triplo" name="op" value="3" />
+      <label for="single">Triplo(R$ 340,00)</label>
+    </div>
+
+    <label for="crianca">Número Crianças menores de 5 anos:</label>
+    <input
+      type="number"
+      id="crianca"
+      name="crianca"
+      value=""
+      min="0"
+      max="3"
+    />
+
+    <button onclick="resultado()">Efetuar o cálculo</button>
+  </form>
+
+  <script></script>
+</body>
+</html>

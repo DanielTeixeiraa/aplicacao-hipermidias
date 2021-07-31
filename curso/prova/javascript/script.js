@@ -16,7 +16,7 @@ function resultado() {
   var dias = (dataSaida.getTime() - dataChegada.getTime()) / (1000 * 3600 * 24);
 
   if (document.getElementById("single").checked) {
-      if(crianca == 0){
+      if(crianca <= 3){
     aux = dias * 139 + crianca * 30;
     alert("GASTO: " + aux);
       }else{
@@ -25,7 +25,7 @@ function resultado() {
   }
 
   if (document.getElementById("double").checked) {
-    if (crianca <= 2) {
+    if(crianca <= 3){
       aux = dias * 220 + crianca * 30;
       alert("GASTO: " + aux);
     } else {
@@ -34,7 +34,7 @@ function resultado() {
   }
 
   if (document.getElementById("triplo").checked) {
-    if (crianca <= 1) {
+    if(crianca <= 3){
       aux = dias * 340 + crianca * 30;
       alert("GASTO " + aux);
     } else {
